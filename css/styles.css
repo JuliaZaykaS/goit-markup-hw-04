@@ -161,22 +161,10 @@ body {
 
 .email {
   margin-right: 10px;
-  fill: var(--main-text-color);
-}
-
-.email:hover,
-.email:focus {
-  fill: currentColor;
 }
 
 .telephone {
   margin-right: 10px;
-  fill: var(--main-text-color);
-}
-
-.telephone:hover,
-.telephone:focus {
-  fill: currentColor;
 }
 
 /*=== /Шапка страницы ===*/
@@ -361,19 +349,13 @@ body {
   height: 44px;
   border-radius: 50%;
   padding: 12px;
+  color: var(--icon-color);
 }
 
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-color);
-}
-
-.social-icon {
-  fill: var(--icon-color);
-}
-.social-icon:hover,
-.social-icon:focus {
-  fill: var(--main-white-color);
+  color: var(--main-white-color);
 }
 
 .social-network-list .social-network:not(:last-child) {
@@ -408,10 +390,6 @@ body {
 .client-link:hover,
 .client-link:focus {
   color: var(--accent-color);
-}
-
-.brand-icon {
-  fill: currentColor;
 }
 
 /*=== /Наши клиенты ===*/
